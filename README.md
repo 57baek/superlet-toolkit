@@ -1,3 +1,27 @@
+Use modern log/normalization/resize/downsampling
+Use superlet cache
+Add visualization (introduce log and normalization and resize) 
+Add docker + add requirements 
+add readme 
+add comments 
+test with real data 
+change exceptions 
+add ss parameter control
+add logger
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Superlet Transformation Toolkit
 
 This repository is built upon the paper:
