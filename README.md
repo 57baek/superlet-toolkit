@@ -1,32 +1,29 @@
-Use modern log/normalization/resize/downsampling
-Use superlet cache
-Add visualization (introduce log and normalization and resize) 
-Add docker + add requirements 
-add readme 
-add comments 
-test with real data 
-change exceptions 
+change exceptions
 add ss parameter control
 add logger
+
+Use modern log/normalization/resize/downsampling
+Use superlet cache
+
+Add Downsampling
+Add log
+Add normalization
+Add Resize
+Add visualization
+
+Add docker + add requirements
+add readme
+add comments
+
+test with real data
+
 check .env and gitignore
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Superlet Transformation Toolkit
 
 This repository is built upon the paper:
 **"Time-frequency super-resolution with superlets"**
-*Moca et al., Nature Communications (2021)*
+_Moca et al., Nature Communications (2021)_
 
 and the official implementation by Harald Bârzan:
 [Superlets (MIT License)](https://github.com/TransylvanianInstituteOfNeuroscience/Superlets.git).
@@ -62,10 +59,12 @@ When working with **short windows** (e.g., 2 seconds), artifacts can appear at t
 ### 🧪 Things We Tried (and Why We Dropped Them)
 
 1.  **Zero-padding**:
+
     -   Added zeros before and after the signal window.
     -   ❌ **Result**: Resulted in some improvement, but edge artifacts remained.
 
 2.  **Subtracting the mean**:
+
     -   Removed the mean amplitude, which was helpful when the signal had a linear trend.
     -   ❌ **Result**: Slightly distorted the overall frequency content, and artifacts still remained.
 
