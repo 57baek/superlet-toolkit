@@ -8,7 +8,7 @@ test with real data
 change exceptions 
 add ss parameter control
 add logger
-
+check .env and gitignore
 
 
 
