@@ -2,7 +2,6 @@ change exceptions
 add ss parameter control
 add logger
 
-
 Use modern log/normalization/resize/downsampling
 Use superlet cache
 
